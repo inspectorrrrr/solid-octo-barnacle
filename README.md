@@ -15,8 +15,13 @@
 
 ## Требования
 
+**Вариант Python:**
 - Python 3.11+
 - Стандартная библиотека (json, os, datetime)
+
+**Вариант Node.js:**
+- Node.js 18+
+- Стандартные модули (fs, readline)
 
 ## Установка
 
@@ -26,18 +31,26 @@ git clone https://github.com/inspectorrrrr/solid-octo-barnacle.git
 cd solid-octo-barnacle
 ```
 
-2. Убедитесь, что файл `materials_catalog.json` находится в той же директории, что и `main.py`
+2. Убедитесь, что файл `materials_catalog.json` находится в той же директории, что и исполняемый файл
 
 3. Запустите приложение:
+
+**Python:**
 ```bash
 python3 main.py
+```
+
+**Node.js:**
+```bash
+node main.js
 ```
 
 ## Структура проекта
 
 ```
 .
-├── main.py                  # Основной файл приложения
+├── main.py                  # Приложение на Python
+├── main.js                  # Приложение на Node.js
 ├── materials_catalog.json   # Каталог материалов с ценами
 └── README.md                # Документация
 ```

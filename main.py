@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Консольное приложение для формирования заявки на строительные материалы
-с логикой удержания клиента
-"""
-
 import json
 import os
 from datetime import datetime
